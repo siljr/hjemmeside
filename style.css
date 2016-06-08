@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .circle-container-container {
@@ -27,6 +28,7 @@
   width: 150px;
   background: orange;
   border-radius: 50%;
+  padding: 20px;
   text-align: center;
 
   display: flex;
@@ -34,6 +36,7 @@
   justify-content: center;
 
 }
+
 
 body {
   background-color: #3498db;
