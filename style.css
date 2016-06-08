@@ -4,13 +4,21 @@
   padding: 0;
 }
 
-.circle-container {
-  background-color: red;
-  width: 900px;
+.circle-container-container {
+  height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+
+}
+
+.circle-container {
+  width: 900px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto; /*setter tingene i midten horisontalt*/
 
 }
 
