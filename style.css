@@ -9,27 +9,35 @@
   height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
   display: flex;
   flex-direction: column;
+  background-color: grey;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .circle-container {
-  width: 900px;
+  width: 800px;
   display: flex;
+  background-color: lightgrey;
   justify-content: space-between;
   margin: 0 auto; /*setter tingene i midten horisontalt*/
-
 }
+
+/*Hvorfor synes ikke det her?*/
+.text-container {
+  width: 800px;
+  display: flex;
+  background: lightgrey;
+  justify-content: space-between;
+  margin: 6px;
+}
+
 
 .circle {
   height: 150px;
   width: 150px;
-  background: orange;
-  border-radius: 50%;
-  padding: 20px;
-  text-align: center;
+  border-radius: 50%; /*Denne gjør den til en sirkel (avrunder kantene)*/
+  padding: 25px;  /*Denne bestemmer hvor stort bildet blir*/
+  /*text-align: center;*/
 
   display: flex;
   flex-direction: column;
@@ -38,8 +46,35 @@
 }
 
 
+/*Hvorfor synes ikke det her?*/
+.startpage-text{
+
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 30px;
+  color: black;
+  background: white;
+  text-decoration: none;
+}
+
+#about {
+  background: #BE7AE3;
+}
+
+#cv {
+  background: #FF8383;
+}
+
+#portfolio {
+  background: #EE7ABC;
+}
+
+#contact {
+  background: #CBADDC;
+}
+
+
 body {
-  background-color: #3498db;
+  background-color: ##ecf0f1;
 }
 
 h1 {
