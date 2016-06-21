@@ -5,30 +5,34 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Rubik', sans-serif;
+
+}
+
 .circle-container-container {
   height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  /*background-color: white;*/
   justify-content: center;
   align-items: center;
 }
 
 .circle-container {
-  width: 800px;
+  width: 1000px;
   display: flex;
-  background-color: lightgrey;
+  background-color: none;
   justify-content: space-between;
   margin: 0 auto; /*setter tingene i midten horisontalt*/
 }
 
-/*Hvorfor synes ikke det her?*/
-.text-container {
-  width: 800px;
-  display: flex;
-  background: lightgrey;
-  justify-content: space-between;
-  margin: 6px;
+.mainpage-links {
+  /*display: flex;*/
+  width: 200;
+  background-color: none;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -36,9 +40,9 @@
   height: 150px;
   width: 150px;
   border-radius: 50%; /*Denne gjør den til en sirkel (avrunder kantene)*/
-  padding: 25px;  /*Denne bestemmer hvor stort bildet blir*/
-  /*text-align: center;*/
-
+  padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
+  margin: 0 auto;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,11 +52,10 @@
 
 /*Hvorfor synes ikke det her?*/
 .startpage-text{
-
-  font-family: Helvetica, Arial, Sans-Serif;
+  font-weight: bold;
   font-size: 30px;
   color: black;
-  background: white;
+  /*background: white;*/
   text-decoration: none;
 }
 
