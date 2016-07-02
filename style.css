@@ -10,27 +10,28 @@ body {
 
 }
 
-.circle-container-container {
+.window {
   height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
   display: flex;
   flex-direction: column;
   /*background-color: white;*/
   justify-content: center;
   align-items: center;
+  background-color: red;
 }
 
-.circle-container {
+.menu-item-container {
   width: 1000px;
   display: flex;
-  background-color: none;
   justify-content: space-between;
   margin: 0 auto; /*setter tingene i midten horisontalt*/
+  background-color: orange;
 }
 
 .mainpage-links {
   /*display: flex;*/
   width: 200;
-  background-color: none;
+  background-color: yellow;
   text-align: center;
   margin: auto;
 }
