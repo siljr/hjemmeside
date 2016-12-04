@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.circle {
+  margin-top: 0;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/*kontaktinfo*/
+.contactinfo {
+  background-color: orange;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.contactinfo img {
+  height: 45px;
+  margin: 8px;
+}
+
+/*kontakinfo som er lenker */
+.toplink {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+a.toplink {
+  color: black;
+}
+a.toplink:hover {
+  color: pink;
+}
+
+
+
+
+.cvelement {
+  background-color: purple;
+}

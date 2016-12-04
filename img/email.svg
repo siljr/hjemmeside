@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Epost</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-622.000000, -344.000000)">
+            <g id="Epost" transform="translate(622.000000, 344.000000)">
+                <rect id="Rectangle-2" fill="#D88484" x="0" y="0" width="44" height="44" rx="22"></rect>
+                <text id="@" font-family="MyriadPro-Bold, Myriad Pro" font-size="40" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="6.4" y="31.6">@</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -36,20 +36,11 @@ body {
   margin: auto;
 }
 
-
 .circle {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%; /*Denne gjør den til en sirkel (avrunder kantene)*/
-  padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
-  margin: 0 auto;
   margin: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
 
 }
-
 
 /*Hvorfor synes ikke det her?*/
 .startpage-text{
@@ -76,12 +67,6 @@ body {
   background: #CBADDC;
 }
 
-
 body {
   background-color: ##ecf0f1;
-}
-
-h1 {
-  background: #2ecc71;
-  margin-top: 715px;
 }
