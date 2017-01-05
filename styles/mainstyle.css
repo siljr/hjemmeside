@@ -19,13 +19,20 @@ p {
 
 div.centered {
   display: flex;
-  max-width: 50%;
+  max-width: 45%;
   flex-direction: column;
-  text-align: justify;
+  margin: 0 auto;
+}
+
+.centered-block {
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
   margin: 0 auto;
 }
 
 h1 {
+  font-size: 3em;
   text-align: center;
   background-color: red;
   margin-top: 3%;
@@ -33,8 +40,19 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  display: flex;
+  padding: 0.5em;
+  font-size: 2em;
+  text-align: left;
   background-color: red;
-  margin-top: 3%;
   margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: auto;
+}
+
+hr {
+  margin: 0;
 }
