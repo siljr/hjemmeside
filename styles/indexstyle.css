@@ -17,29 +17,28 @@ body {
   /*background-color: white;*/
   justify-content: center;
   align-items: center;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .menu-item-container {
   width: 1000px;
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   margin: 0 auto; /*setter tingene i midten horisontalt*/
-  background-color: orange;
+  /*background-color: orange;*/
 }
 
 .mainpage-links {
   /*display: flex;*/
   width: 200;
-  background-color: yellow;
+  /*background-color: yellow;*/
   text-align: center;
   margin: auto;
 }
 
-.circle {
-  margin: 15px;
+.square {
   padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
-
+  display: inline;
 }
 
 /*Hvorfor synes ikke det her?*/
