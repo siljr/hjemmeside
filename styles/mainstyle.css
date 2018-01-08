@@ -8,8 +8,8 @@ p {
 }
 
 .circle {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%; /*Denne gjør den til en sirkel (avrunder kantene)*/
   margin: 0 auto;
   display: flex;
@@ -55,4 +55,20 @@ h3 {
 
 hr {
   margin: 0;
+}
+
+.left-text {
+	align: right;
+}
+
+.rigth-text {
+    align: left;
+}
+
+.cv-description {
+
+}
+
+.cv-details {
+    
 }

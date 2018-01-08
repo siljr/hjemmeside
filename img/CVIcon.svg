@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="53px" viewBox="0 0 46 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>CV2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-Copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-618.000000, -399.000000)" stroke-linecap="round">
+        <g id="CV2" transform="translate(621.000000, 402.000000)" stroke="#000000" stroke-width="5">
+            <path d="M29.3005401,3.77040088e-15 C21.2003601,2.72806768e-15 13.10018,1.68573447e-15 5,6.43401259e-16 L5,0 C2.23857625,5.07265313e-16 -3.89089055e-15,2.23857625 -3.55271368e-15,5 L0,43 C2.705415e-16,45.209139 1.790861,47 4,47 L36,47 C38.209139,47 40,45.209139 40,43 L40,13.8078746" id="Line"></path>
+            <polyline id="Line-4" points="26.5 8.5 26.5 13.5 31.5 13.5"></polyline>
+        </g>
+    </g>
+</svg>

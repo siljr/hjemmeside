@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="47px" viewBox="0 0 63 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Contact2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-Copy-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-962.000000, -405.000000)" stroke-linecap="round">
+        <g id="Contact2" transform="translate(965.000000, 401.000000)" stroke="#000000" stroke-width="5">
+            <path d="M41.7532697,7 C29.5021798,7 17.2510899,7 5,7 L5,7 C2.23857625,7 5.50001544e-16,9.23857625 8.8817842e-16,12 L0,44 C2.705415e-16,46.209139 1.790861,48 4,48 L53,48 C55.209139,48 57,46.209139 57,44 L57,19.0451672" id="Line"></path>
+            <path d="M15,6 L20.6618176,26.8876929 C20.7559821,27.2350867 21.0295728,27.5050751 21.3781841,27.5946273 L42.8478629,33.1098153" id="Line-4" transform="translate(28.923931, 19.554908) scale(1, -1) rotate(135.000000) translate(-28.923931, -19.554908) "></path>
+        </g>
+    </g>
+</svg>

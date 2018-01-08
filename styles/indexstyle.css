@@ -1,71 +1,80 @@
 /* dette overskriver browserstandard for padding og margin */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 
 }
 
 .window {
-  height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
-  display: flex;
-  flex-direction: column;
-  /*background-color: white;*/
-  justify-content: center;
-  align-items: center;
-  /*background-color: red;*/
+    height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
+    display: flex;
+    flex-direction: column;
+    /*background-color: white;*/
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
 }
 
 .menu-item-container {
-  width: 1000px;
-  display: flex;
-  /*justify-content: space-between;*/
-  margin: 0 auto; /*setter tingene i midten horisontalt*/
-  /*background-color: orange;*/
+    width: 1000px;
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 0 auto; /*setter tingene i midten horisontalt*/
+    /*background-color: orange;*/
 }
 
 .mainpage-links {
-  /*display: flex;*/
-  width: 200;
-  /*background-color: yellow;*/
-  text-align: center;
-  margin: auto;
+    /*display: flex;*/
+    width: 200;
+    /*background-color: yellow;*/
+    text-align: center;
+    margin: auto;
 }
 
 .square {
-  padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
-  display: inline;
+    padding: 30px;  /*Denne bestemmer hvor stort bildet blir*/
+    display: inline;
 }
 
-/*Hvorfor synes ikke det her?*/
 .startpage-text{
-  font-weight: bold;
-  font-size: 30px;
-  color: black;
-  /*background: white;*/
-  text-decoration: none;
+    font-weight: bold;
+    padding-top: 0.5em;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: none; /*FJERNET AT TEKSTEN SYNES SOM DEFAULT*/
+    /*background-color: pink;*/
+}
+
+a:hover + a {
+    display: block;
+}
+
+#home {
+    background: #BBBDF6;
 }
 
 #about {
-  background: #BE7AE3;
+    background: #BE97C6;
 }
 
 #cv {
-  background: #FF8383;
+    background: #EFBCD5;
 }
 
 #portfolio {
-  background: #EE7ABC;
+    background: #FBC2B5;
 }
 
 #contact {
-  background: #CBADDC;
+    background: #FFA8A9;
 }
 
 body {
-  background-color: ##ecf0f1;
+    background-color: ##ecf0f1;
 }

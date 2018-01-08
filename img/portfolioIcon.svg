@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Portfolio1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-Copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-792.000000, -402.000000)" stroke-linecap="round">
+        <g id="Portfolio1" transform="translate(795.000000, 403.000000)" stroke="#000000" stroke-width="5">
+            <path d="M25.045441,-3.05456525 L24.7454408,-3.05456525 C22.3706163,-3.05456525 20.4454407,-1.12938958 20.4454407,1.24543495 L20.4454407,38.9454348 C20.4454407,41.1545738 22.2363017,42.9454348 24.4454407,42.9454348 L25.045441,42.9454348 C27.25458,42.9454348 29.045441,41.1545738 29.045441,38.9454348 L29.045441,0.945434755 C29.045441,-1.26370424 27.25458,-3.05456525 25.045441,-3.05456525 Z" id="Line" transform="translate(24.745441, 19.945435) rotate(45.000000) translate(-24.745441, -19.945435) "></path>
+            <polyline id="Line-4" points="0 39 0 44.5 5.5 44.5"></polyline>
+        </g>
+    </g>
+</svg>
