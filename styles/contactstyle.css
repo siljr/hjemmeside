@@ -1,0 +1,12 @@
+/*kontaktinfo*/
+.contactinfo {
+    background-color: orange;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.contactinfo img {
+    height: 45px;
+    margin: 3px;
+}

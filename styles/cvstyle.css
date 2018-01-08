@@ -2,59 +2,25 @@
     font-family: Arial, sans-serif;
 }
 
-.circle {
-  margin-top: 0;
-  background-color: lightgreen;
-  padding: 20px;
-}
-
-/*kontaktinfo*/
-.contactinfo {
-  background-color: orange;
-  margin: 0px 5px;
-  padding: 0px 5px;
-  display: flex;
-  align-items: center;
-}
-.contactinfo img {
-  height: 45px;
-  margin: 3px;
-}
-
-/*kontakinfo som er lenker */
-.toplink {
-  text-decoration: none;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin: 0px 10px 0px 10px;
-}
-
-a.toplink {
-  color: black;
-}
-a.toplink:hover {
-  color: pink;
-}
-
-
 .cvelement {
-  background-color: purple;
-  /*margin-bottom: 2em;*/
-  padding: 1em;
-  text-align: justify;
-  /*border: 1px solid black;*/
+    display: flex;
+    /*background-color: purple;*/
+    padding: 1em;
 }
 
-.cvelement span {
-  font-weight: lighter;
+.cv-description {
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.cv-details {
+    width: 500px;
+    padding-left: 1em;
 }
 
 .cvelement p {
-  margin: auto;
-}
-
-h3 + p {
-  color: hotpink;
-  font-size: 18px;
-  padding: 4px 0px;
+    margin: auto;
 }

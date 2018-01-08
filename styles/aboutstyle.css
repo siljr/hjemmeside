@@ -1,0 +1,39 @@
+#profile-info {
+    display: flex;
+}
+
+#profile-picture {
+    padding: 2em;
+}
+
+#profile-text {
+    padding: 2em;
+}
+
+#skills {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#design-items {
+    text-align: right;
+}
+
+#design-skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 2em 0 2em;
+}
+
+#coding-skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 2em 0 2em;
+}
+
+.skills-icon {
+    padding: 1em 0 1em 0;
+}

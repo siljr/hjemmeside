@@ -2,32 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="styles/mainstyle.css" rel="stylesheet">
+    <link href="../styles/mainstyle.css" rel="stylesheet">
+    <link href="../styles/aboutstyle.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <img src="../img/aboutIcon.svg" alt="AboutIcon">
-    <h1>Om meg</h1>
-    <!-- <img class="circle" src="../img/profilePicture.jpg" alt="Silje"> -->
-    <p>Jeg er ei 26 år gammel jente som digger katter og interaksjonsdesign. Jeg har en bachelorgrad i informatikk fra NTNU.</p>
+    <div class="centered">
+        <img class="main-icon" src="../img/aboutIcon.svg" alt="Ikon">
+        <h1>Om meg</h1>
 
-    <h2>Skills</h2>
+        <div id="profile-info">
+            <div>
+                <img class="circle" id="profile-picture" src="../img/profilePicture.jpg" alt="Bilde av Silje">
+            </div>
+            <p id="profile-text">Jeg er ei 26 år gammel jente som digger katter og interaksjonsdesign. Jeg har en bachelorgrad i informatikk fra NTNU.</p>
+        </div>
 
-    <img src="../img/designIcon.svg" alt="design">
-    <div class="right-text">
-        Sketch <br>
-        Invision <br>
-        Indesign <br>
-        Illustrator <br>
+        <h2>Skills</h2>
+
+        <div id="skills">
+            <div id="design-skills-column">
+            <img class="skills-icon" src="../img/designIcon.svg" alt="design">
+                <div id="design-items">
+                    Sketch <br>
+                    Invision <br>
+                    Indesign <br>
+                    Illustrator <br>
+                </div>
+            </div>
+
+            <div id="coding-skills-column">
+                <img class="skills-icon" src="../img/codingIcon.svg" alt="kode">
+                <div id="code-items">
+                    Html & css <br>
+                    Python <br>
+                    Fuse <br>
+                    Git <br>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-    <img src="../img/codingIcon.svg" alt="kode">
-    <div class="left-text">
-        Html & css <br>
-        Python <br>
-        Fuse <br>
-        Git <br>
-    </div>
-
 </body>
 </html>
