@@ -1,12 +1,38 @@
-/*kontaktinfo*/
-.contactinfo {
-    background-color: orange;
-    margin: 0px 5px;
-    padding: 0px 5px;
-    display: flex;
-    align-items: center;
+#contact-elements-wrapper {
+    padding-top: 2em;
 }
-.contactinfo img {
-    height: 45px;
-    margin: 3px;
+.contactelement {
+    display: flex;
+    padding: 0.7em;
+}
+
+.contact-description {
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.contact-details {
+    width: 500px;
+    padding-left: 1em;
+}
+
+.contactelement p {
+    margin: auto;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFA8A9;
 }
