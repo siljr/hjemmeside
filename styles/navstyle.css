@@ -1,11 +1,22 @@
 .menu-item-container {
 	margin-top: -60px;
+	padding-bottom: 4em;
 }
 
-.circle:hover {
+.top-nav-circle:hover {
 	box-shadow:inset 0px 0px 0px 5px black;
 }
 
-img {
+.top-nav-circle {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%; /*Denne gjør den til en sirkel (avrunder kantene)*/
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.top-nav-icon {
 	margin-top: 90px;
 }
