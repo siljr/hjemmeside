@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: glidetotop 2s ease-out 0s infinite;
+    /* animation: glidetotop 2s ease-out 0s infinite; */
 }
 
 @keyframes glidetotop {
