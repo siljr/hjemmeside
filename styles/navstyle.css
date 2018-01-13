@@ -3,10 +3,6 @@
 	padding-bottom: 4em;
 }
 
-.top-nav-circle:hover {
-	box-shadow:inset 0px 0px 0px 5px black;
-}
-
 .top-nav-circle {
 	height: 120px;
 	width: 120px;
@@ -17,6 +13,18 @@
 	justify-content: center;
 }
 
+.top-nav-circle:hover {
+	box-shadow:inset 0px 0px 0px 5px black;
+}
+
 .top-nav-icon {
 	margin-top: 90px;
+}
+
+body.about a#about,
+body.contact a#contact,
+body.cv a#cv,
+body.portfolio a#portfolio  {
+	box-shadow:inset 0px 0px 0px 5px black;
+	cursor: default;
 }
