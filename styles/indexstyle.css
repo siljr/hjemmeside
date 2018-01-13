@@ -14,8 +14,16 @@ body {
     height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
     display: flex;
     flex-direction: column;
-    /*background-color: white;*/
     justify-content: center;
     align-items: center;
-    /*background-color: red;*/
+    animation: glidetotop 2s ease-out 0s infinite;
+}
+
+@keyframes glidetotop {
+    0% {
+
+    }
+    100% {
+        transform: translate(0%, -50%);
+    }
 }
