@@ -16,12 +16,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* animation: glidetotop 2s ease-out 0s infinite; */
+}
+
+.window-acitve {
+    animation: glidetotop 10s ease-out 0s infinite;
 }
 
 @keyframes glidetotop {
     0% {
 
+    }
+    20% {
+        transform: translate(0%, -50%);
     }
     100% {
         transform: translate(0%, -50%);

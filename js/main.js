@@ -7,3 +7,7 @@ $(".circle").click(function (e) {
          window.location = goTo;
     },2000);
 });
+
+$(".mainpage-links").click(function() {
+    $('.window').addClass('window-acitve');
+});
