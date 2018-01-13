@@ -5,7 +5,7 @@ $(".circle").click(function (e) {
     var goTo = this.getAttribute("href"); // store anchor href
     setTimeout(function(){
          window.location = goTo;
-    },2000);
+    },1500);
 });
 
 $(".mainpage-links").click(function() {

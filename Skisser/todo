@@ -1,6 +1,15 @@
+Todo
+- legge til unntak for home-knappen når man er på index-siden (sånn at den ikke trigger animasjonen)
 - fikse animasjon fra toppmeny til homepage
+- legge til html i porteføljen
+- legge til bildekaruseller i porteføljen
 - fade inn og ut mellom sider sånn at det ser bra ut https://css-tricks.com/forums/topic/fade-out-between-pages/
 - fikse animasjonene sånn at ikonene fra menyen blir stående på rett sted
-- legge til permanent indikator på hvilken side du er på
 - fikse menyen på index sånn at teksten spretter opp på rett sted
 - gjøre siden responsiv
+
+Maybe
+- gjøre indikatoren på topnav sweetere med feks animasjon der indikatorstreken vokser
+
+Done
+- legge til permanent indikator på hvilken side du er på
