@@ -28,3 +28,31 @@ body.portfolio a#portfolio  {
 	box-shadow:inset 0px 0px 0px 5px black;
 	cursor: default;
 }
+
+.window-acitve-down {
+    animation: glidetotop 10s ease-out 0s infinite;
+    animation-direction: reverse;
+}
+
+@keyframes glidetotop {
+    20% {
+        transform: translate(0%, -50%);
+    }
+    100% {
+        transform: translate(0%, -50%);
+    }
+}
+
+/* .home-acitve {
+    animation: glidedown 10s ease-out 0s infinite;
+	animation-direction: reverse;
+}
+
+@keyframes glidedown {
+    15% {
+        transform: translate(0%, -50%);
+    }
+    100% {
+        transform: translate(0%, -50%);
+    }
+} */

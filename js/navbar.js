@@ -1,5 +1,4 @@
 document.write('\
-  <link rel="stylesheet" type="text/css" href="../css/navstyle.css" />\
   <!-- start code for navbar -->\
   <!-- her har jeg brukt http://www.w3schools.com/css/css_navbar.asp  -->\
       <div class="window">\
