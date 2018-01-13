@@ -1,1 +1,4 @@
-console.log("Hei");
+$(".menu-item-container").click(function() {
+    console.log("Hei");
+    $('.transform').toggleClass('menu-item-container-active');
+});

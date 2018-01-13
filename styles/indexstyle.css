@@ -14,8 +14,14 @@ body {
     height: 100vh; /*vp er viewport height - som er høyden til browservinduet*/
     display: flex;
     flex-direction: column;
-    /*background-color: white;*/
     justify-content: center;
     align-items: center;
-    /*background-color: red;*/
+}
+
+.transform {
+    transition: transform 900ms ease-in-out;
+}
+
+.menu-item-container-active {
+    transform: translate(0px, -400px);
 }
