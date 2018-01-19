@@ -1,0 +1,30 @@
+.portfolioitem {
+	display: flex;
+	flex-direction: column;
+}
+
+.slideshow-item {
+    max-width: 500px;
+}
+
+.portfolio-text {
+    display: flex;
+    padding: 1em;
+}
+
+.portfolio-description {
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.portfolio-details {
+    width: 500px;
+    padding-left: 1em;
+}
+
+.portfolio-text p {
+    margin: auto;
+}
